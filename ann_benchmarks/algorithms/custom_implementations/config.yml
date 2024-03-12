@@ -1,0 +1,29 @@
+float:
+  any:
+  - base_args: ['@metric', '@dimension']
+    constructor: CustomIvfPq
+    disabled: false
+    docker_tag: ann-benchmarks-custom_implementations
+    module: ann_benchmarks.algorithms.custom_implementations
+    name: Custom(IVF_PQ)
+    run_groups:
+      empty:
+        args: []
+  - base_args: ['@metric', '@dimension']
+    constructor: CustomIvfSq8
+    disabled: false
+    docker_tag: ann-benchmarks-custom_implementations
+    module: ann_benchmarks.algorithms.custom_implementations
+    name: Custom(IVF_SQ8)
+    run_groups:
+      empty:
+        args: []
+  - base_args: ['@metric', '@dimension']
+    constructor: CustomDiskann
+    disabled: false
+    docker_tag: ann-benchmarks-custom_implementations
+    module: ann_benchmarks.algorithms.custom_implementations
+    name: Custom(DISKANN)
+    run_groups:
+      empty:
+        args: []

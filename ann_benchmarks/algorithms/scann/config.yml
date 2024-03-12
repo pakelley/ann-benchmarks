@@ -2,7 +2,7 @@ float:
   angular:
   - base_args: {}
     constructor: Scann
-    disabled: false
+    disabled: true
     docker_tag: ann-benchmarks-scann
     module: ann_benchmarks.algorithms.scann
     name: scann
@@ -33,7 +33,7 @@ float:
   euclidean:
   - base_args: {}
     constructor: Scann
-    disabled: false
+    disabled: true
     docker_tag: ann-benchmarks-scann
     module: ann_benchmarks.algorithms.scann
     name: scann

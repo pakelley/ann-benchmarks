@@ -2,7 +2,7 @@ float:
   any:
   - base_args: ['@metric']
     constructor: HnswLib
-    disabled: false
+    disabled: true
     docker_tag: ann-benchmarks-hnswlib
     module: ann_benchmarks.algorithms.hnswlib
     name: hnswlib
